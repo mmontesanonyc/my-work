@@ -1,7 +1,7 @@
 ---
 title: "Data Portal Redesign Part 2: The Work"
 date: 2022-06-19T12:14:19-04:00
-draft: false
+draft: true
 ---
 
 ## The groundwork

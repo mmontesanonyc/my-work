@@ -1,7 +1,7 @@
 ---
-title: "COVID-19 data pages: goals and strategies"
+title: "COVID-19 data pages: details on strategy"
 date: 2022-06-10T12:14:19-04:00
-draft: false
+draft: true
 ---
 
 I spent 27 months activated with the Health Department's COVID-19 response, working on our data webpages. In this time, I:
@@ -36,6 +36,9 @@ Publishing data in a Github repository meant:
 - People could see the historical record, via previous versions stored by git
 - We could include a lot of documentation, data definitions, and more
 - People could ask questions by filing issues - and we'd answer them
+
+{{< addimage src="/covid-github.png" caption="The COVID data Github repo.">}}
+
 
 ## Make the data friendly and approachable
 Data aren't just for data professionals. Data are knowledge, and we wanted to share that widely. So we wanted to make the data accessible for many kinds of people, regardless of data literacy. To do this, we:
