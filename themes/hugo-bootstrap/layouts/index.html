@@ -1,0 +1,14 @@
+{{ partial "head" . }}
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            {{ .Content}}
+        </div>
+    </div>
+
+    <div class="row">
+        {{ partial "content/recent-posts" . }}
+    </div>
+</div>
+{{ partial "foot" . }}
