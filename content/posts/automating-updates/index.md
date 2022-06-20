@@ -1,6 +1,6 @@
 ---
 title: "Automating Updates"
-date: 2022-06-20T10:14:19-04:00
+date: 2022-05-20T10:14:19-04:00
 draft: false
 ---
 
