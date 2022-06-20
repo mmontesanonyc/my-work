@@ -1,29 +1,31 @@
 {{ partial "head" . }}
 <div class="container">
 
+
+
     <div class="row">
         <div class="col-md-8 col-sm-12">
             {{ .Content}}
         </div>
 
         <div class="col-md-4 col-sm-12">
-            <img src="{{ $.Site.Params.path}}/headshot.jpeg" class="img img-fluid">
+            <img src="{{ $.Site.Params.devpath}}/headshot.jpeg" class="img img-fluid">
         </div>
     </div>
 
     <div class="row mt-2">
         <div class="col-md-4">
-            <a href="{{ $.Site.Params.path}}/about">
+            <a href="{{ $.Site.Params.devpath}}/about">
             <button type="button" class="btn btn-outline-info btn-block mb-4"><i class='fa-solid fa-circle-info mr-1'></i>About me</button>
             </a>
         </div>
         <div class="col-md-4">
-            <a href="{{ $.Site.Params.path}}/papers">
+            <a href="{{ $.Site.Params.devpath}}/papers">
             <button type="button" class="btn btn-outline-info btn-block mb-4"><i class='fa fa-book mr-1'></i>Papers</button>
             </a>
         </div>
         <div class="col-md-4">
-            <a href="{{ $.Site.Params.path}}/talks">
+            <a href="{{ $.Site.Params.devpath}}/talks">
             <button type="button" class="btn btn-outline-info btn-block mb-4"><i class='fa-solid fa-person-chalkboard mr-1'></i>Talks</button>
             </a>
         </div>

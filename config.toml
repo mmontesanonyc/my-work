@@ -3,8 +3,9 @@ languageCode = 'en-us'
 title = 'Matthew Montesano'
 theme = 'hugo-bootstrap'
 publishDir = 'docs'
-path = '/work-portfolio'
 
+[params]
+    devpath = "/work-portfolio"
 
 [[menu.main]]
     name = "LinkedIn"
