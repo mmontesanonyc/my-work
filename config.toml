@@ -1,8 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://mmontesanonyc.github.io/'
 languageCode = 'en-us'
 title = 'Matthew Montesano'
 theme = 'hugo-bootstrap'
 publishDir = 'docs'
+path = '/work-portfolio'
 
 
 [[menu.main]]
