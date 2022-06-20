@@ -1,4 +1,4 @@
-baseURL = 'http://mmontesanonyc.github.io/'
+baseURL = 'http://mmontesanonyc.github.io/work-portfolio'
 languageCode = 'en-us'
 title = 'Matthew Montesano'
 theme = 'hugo-bootstrap'
