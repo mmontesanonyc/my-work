@@ -1,6 +1,6 @@
 ---
-title: "COVID-19 data pages: goals and stratgies"
-date: 2022-06-19T12:14:19-04:00
+title: "COVID-19 data pages: goals and strategies"
+date: 2022-06-10T12:14:19-04:00
 draft: false
 ---
 

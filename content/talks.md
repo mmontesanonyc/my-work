@@ -5,9 +5,17 @@ draft: false
 ---
 
 ## Talks
+I enjoy presenting my work. I like to talk about things like:
+- What we're doing to make public health data more accessible
+- Why it's important for public health agencies to focus on how they communicate data
+- How to do data communication well: research, practices, and methods
+- Where data visualization, design, web usability, and health comms overlap
+- Specific projects: our research, our problems, our solutions, and our results
 
 ### 2022
 "Effective Data Communication." Council of State and Territorial Epidemiologists Peer to Peer Webinar for Applied Epi Fellowship.
+
+"Data is a social process." For Triptk. 
 
 "DOHMH Health Data Tour." NYC Open Data Week.
 

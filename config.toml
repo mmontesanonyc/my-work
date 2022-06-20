@@ -2,28 +2,18 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Matthew Montesano'
 theme = 'hugo-bootstrap'
-navbarBgColorClass = 'secondary'
 
 
 [[menu.main]]
-    name = "About"
-    pre = "<i class='fa-solid fa-circle-info'></i>"
+    name = "LinkedIn"
+    pre = "<i class='fa-brands fa-linkedin'></i>"
     weight = -90
-    identifier = "about"
-    url = "/about"
+    identifier = "linkedin"
+    url = "https://www.linkedin.com/in/matthew-montesano-40a83253/"
 
 [[menu.main]]
-    name = "Papers"
-    pre = "<i class='fa fa-book'></i>"
+    name = "Email me"
+    pre = "<i class='fa-solid fa-envelope'></i>"
     weight = -10
-    identifier = "papers"
-    url = "/papers"
-
-[[menu.main]]
-    name = "Talks"
-    pre = "<i class='fa-solid fa-person-chalkboard'></i>"
-    weight = 10
-    identifier = "talks"
-    url = "/talks"
-
-    
+    identifier = "email"
+    url = "mailto:montesano@gmail.com"

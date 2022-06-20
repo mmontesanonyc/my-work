@@ -1,37 +1,32 @@
 ---
 title: "Data Portal Redesign Part 1: Problems and Priorities"
-date: 2022-06-19T12:14:19-04:00
+date: 2022-06-18T12:14:19-04:00
 draft: false
 ---
 
-In 2021, our team began a re-design of the Environment and Health Data Portal. This site is one of the Health Department's marquee data communication platforms. 
+In 2021, our team began a re-design of the Environment and Health Data Portal. This site is one of the Health Department's marquee data communication platforms. The site was designed to store and automatically visualize datasets ("indicators") that show how environments and heath are related. 
 
-SHOW IMAGE OF HOME PAGE
+{{< addimage src="/old-data-portal-home.png" caption="The old EH Data Portal.">}}
 
-The site was designed to store and automatically visualize datasets ("indicators") that show how environments and heath are related. 
+The portal's original functionality, automatically visualizing a dataset, became called the Data Explorer. {{< imagemodal src="/old-data-portal-indicator-map.png" link="Here's an example." caption="Visualization of an indicator" id="modalindicator">}}
 
-SHOW DATA EXPLORER
-
-Over time, it grew to include additional content types. 
-
-SHOW DATA EXPLORER, NEIGHBORHOOD REPORTS, DATA STORY, 
-
-Because of this piecemeal development, there's no consistent site-wide style.
- 
-
+Over time, the site grew to include additional content types, like:
+- {{< imagemodal src="/old-data-portal-data-story.png" link="Data stories" caption="This is a data story" id="modal1">}}
+- {{< imagemodal src="/old-data-portal-old-NR-output.png" link="Neighborhood reports" caption="The old EH Data Portal Neighborhood Reports" id="modal2">}}
 
 
 ## Front-end issues
 The site had a front-end issues:
-- Piecemeal development: the site was designed as one product but grew to host other products, which led to a mish-mash of different designs on the site.
+- Piecemeal development: the site was designed as one product but grew to host other products, which led to a mish-mash of different designs on the site. For example, the one-off data interactive pages looked very different from the Data Explorer, Data Stories, and Neighborhood Reports. {{< imagemodal src="/old-data-portal-realtime.png" link="Here's an interactive data page" caption="Realtime air quality page" id="realtime">}}
 - Usability issues: the site had a host of usability issues. Data searches and site searches weren't great. Browsability was problematic due to the information architecture (a very hierarchical tree) and the technology (manual management of relationships)
-- Categorization issues: datasets were organized very hierarchically. This made it difficult to build in connections between related environmental and health issues, which are multifaceted and interrelated. We needed a site that could support a richer way to demonstrate how concepts are related. 
+- Speed and performance issues: a lot of the site was built to load front-end content from our database, meaning that it was slow to load simple text content.
+- Categorization issues: datasets were organized very hierarchically. This made it difficult to build in connections between related environmental and health issues, which are multifaceted and interrelated. We needed a site that could support a richer way to demonstrate how concepts are related. {{< imagemodal src="/old-data-portal-aq-hub.png" link="Our stopgap approach of creating one-off Hub Pages could be systematized and improved upon." caption="Air Quality hub page" id="aqhub">}}
 - Data visualization: for a data communication site, the visualization had room to improve. 
 
 
 ## Organizational issues
 - Technical debt: due to staff turnover, the current staff didn't have a thorough understanding of how to maintain and develop the site under its existing framework.
-- Data management: our fairly complex back-end database was designed to support the site; staff turnover mde data loading a challenge. 
+- Data management: our fairly complex back-end database was designed to support the site; staff turnover made data loading and management a challenge. 
 
 ## Re-design priorities
 Because of those issues, a site redesign had to encompass technoloogy, content strategy, information architecture, usability work, and informatics strategy. 

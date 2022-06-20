@@ -2,12 +2,34 @@
 <div class="container">
 
     <div class="row">
-        <div class="col">
+        <div class="col-md-8 col-sm-12">
             {{ .Content}}
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <img src="/headshot.jpeg" class="img img-fluid">
         </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-2">
+        <div class="col-md-4">
+            <a href="/about">
+            <button type="button" class="btn btn-outline-info btn-block mb-4"><i class='fa-solid fa-circle-info mr-1'></i>About me</button>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="/papers">
+            <button type="button" class="btn btn-outline-info btn-block mb-4"><i class='fa fa-book mr-1'></i>Papers</button>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="/talks">
+            <button type="button" class="btn btn-outline-info btn-block mb-4"><i class='fa-solid fa-person-chalkboard mr-1'></i>Talks</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="row mt-4">
         {{ partial "content/recent-posts" . }}
     </div>
 </div>
