@@ -4,7 +4,7 @@ date: 2022-01-19T12:14:19-04:00
 draft: false
 ---
 
-While working with a health communications contractor, I lead work on health communications projects for federal clients. 
+While working with a health communications contractor in 2016 and 2017, I lead work on health communications projects for federal clients. 
 
 ## Healthy People 2020
 I lead a team of communicators and developers to maintain and develop [HealthyPeople2020](https://www.healthypeople.gov/2020). Part of this work included leading design and development of new data communication functions like:

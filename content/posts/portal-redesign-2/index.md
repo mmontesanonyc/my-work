@@ -33,7 +33,6 @@ After taking receipt of the re-designed Neighborhood Reports, we began building 
 
 {{< addimage src="/new-portal-home.png" caption="The new portal's home page.">}}
 
-
 ## The new prototype
 Here's what it features:
 - A consistent style with the same navbar on every page to help show users where they are.

@@ -35,12 +35,12 @@ Similar to the Air Quality Explorer, we could create an interactive that let a u
 
 I used Grant's JavaScript from the Air Quality Explorer and edited it to do essentially the same thing with Heat Vulnerability Index data to create an interactive Heat Vulnerability Index. 
 
-{{< imagemodal src="/heat-vuln-index.png" link="Heat Vulnerability Index" caption="The interactive Heat Vulnerability Index" id="modalHVI">}}
+{{< imagemodalbtn src="/heat-vuln-index.png" link="Heat Vulnerability Index" caption="The interactive Heat Vulnerability Index" id="modalHVI">}}
 
 ---
 
 ## COVID-19 Data by ZIP Code
-After my experience with the Heat Vulnerability Index I thought there was an opportunity to continue writing one-page JavaScript data communication apps, and I turned my attention to my COVID-19 response work.
+After building the Heat Vulnerability Index, I looked for opportunities to continue writing one-page JavaScript data communication apps in my COVID-19 response work.
 
 It was important to our team that we make the data easy to understand, but we felt that a lot of the data on the pages was oriented toward a policymaking audience - helping them answer the question "What areas need our attention?" But, most New Yorkers weren't trying to identify which neighorhoods had highest case rates. Most New Yorkers probably wanted to know what was happening in their neighborhood. 
 
@@ -50,6 +50,7 @@ So, we built a page that would access top-level ZIP Code data about COVID, and d
 - Using comparisons to explain: comparing a neighborhood's value to that of its borough and the city as a whole
 - In-line explanations of metrics and terms, for just-in-time context
 
+Since launching this page, it's seen huge amounts of web traffic. The highest-traffic page is Latest Data, and for much of the vaccination era, the Vaccines page had highest traffic, but more recently, Data by ZIP has eclipsed Vaccines.
 
-{{< imagemodal src="/data-by-zip.png" link="Data by ZIP" caption="The ZIP Code Explorer" id="modalzip">}}
+{{< imagemodalbtn src="/data-by-zip.png" link="Data by ZIP" caption="The ZIP Code Explorer" id="modalzip">}}
 

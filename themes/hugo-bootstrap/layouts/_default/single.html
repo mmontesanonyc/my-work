@@ -2,6 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 col-md-8 mx-auto">
+      <hr class="bg-info mt-4" style="height:10px; border-radius: 5px">
 
     <!-- End Fixed Left Share -->
       {{ .Render "single.hat" }}
@@ -9,6 +10,12 @@
       </div>
   </div>
   <div class="row">{{ .Render "single.boot" }}</div>
+
+  <div class="row">
+    <div class="col-1 mx-auto">
+      <i class="fa-solid fa-asterisk pl-3 text-info" style="font-size: 200%"></i>  
+  </div>
+  </div>
   
 </div>
 {{ partial "foot" . }}
