@@ -1,11 +1,11 @@
 ---
 title: "COVID-19 data pages"
 date: 2022-06-09T12:14:19-04:00
-draft: true
+draft: false
 ---
 
 I spent 27 months activated with the Health Department's COVID-19 response, working on our data webpages. In this time, I:
-- Lead COVID-19 data visualization and data communication strategy
+- Led COVID-19 data visualization and data communication strategy
 - Managed and developed front-end web code
 - Trained and mentored analysts to do similar work
 - Authored and co-authored papers, spoke at conferences and workshops
@@ -48,3 +48,7 @@ Traffic remained high through the pandemic - often mirroring the epi curve as ne
 - We brought our knowledge to the world, allowing it to influence research, policy, and pandemic response
 - We raised the profile of the importance of smart, strategic data communication in the department
 - We advised people in other jurisdictions' health agencies on how to do similar work
+
+---
+
+We described this work in the American Journal of Public Health: [Montesano et al. "Successful, Easy to Access, Online Publication of COVID-19 Data During the Pandemic, New York City, 2020."](https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2021.306446)
