@@ -48,7 +48,9 @@ To make the data accessible for many kinds of people, regardless of data literac
 - Explained metrics, interspersing visuals with explanations of the metrics they were showing, what they mean and why they are important.
 
 ## Use lightweight, easy technology
-When we started, we wanted to build something that we could launch in *days*. That means choosing very lightweight technology. We started with a free Datawrapper account and a free Github account. 
+When we started, we wanted to build something that we could launch in *days*. That means choosing very lightweight technology. We started with a free Datawrapper account and a free Github account.
+
+[Datawrapper interviewed me about our team's experience using their platform.](https://blog.datawrapper.de/nyc-health-covid-reporting/)
 
 ## Set up a maintainable workflow
 We'd be updating the data every day, and we didn't know how long it would last - maybe months! We needed a workflow that was simple, and easy for new staff coming in to emergency response work to pick up. Feeding the charts from a Github repository meant that an analyst would only have to run the code that updated our local CSVs and then upload them to Github - that would update all of our data pages. 
