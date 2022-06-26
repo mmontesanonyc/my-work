@@ -12,14 +12,14 @@ I lead development of a large media campaign for adult and childhood immunizatio
 ### School requirements robocall
 The school vaccine requirements changed, so over the summer, we had to reach nearly 200,000 public school students' families with info so that their kids could start the school year. We worked with schools and health care providers to distribute material and prepare, and we also sent this very brief robocall to every family with a child enrolled in public school. I wrote it and recorded the music and my coworkers' voices. 
 
-{{< audio src="/work-portfolio/pdph-school-requirements.wav" type="audio/wav">}}
+{{< audio src="/my-work/pdph-school-requirements.wav" type="audio/wav">}}
 
 ---
 
 ### Adult vaccines campaign
 We did a big PSA campaign about adult vaccines. This included these radio PSAs that I wrote and recorded, featuring the voice of a colleague. 
 
-{{< audio src="/work-portfolio/pdph-change-the-oil.wav" type="audio/wav">}}
+{{< audio src="/my-work/pdph-change-the-oil.wav" type="audio/wav">}}
 
 And, we featured program staff in a billboard campaign designed targeting older adults with messages about how vaccines can help them stay healthy. We went for bright, cheerful colors and a youthful, active vibe. 
 - {{< imagemodal src="/pdph-billboard-1.jpeg" link="Billboard featuring Nurse Lori at her Crossfit gym" caption="Nurse Lori's billboard overlooking I-95" id="modalbillboard">}}

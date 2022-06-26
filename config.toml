@@ -1,4 +1,4 @@
-baseURL = 'http://mmontesanonyc.github.io/work-portfolio'
+baseURL = 'http://mmontesanonyc.github.io/my-work'
 languageCode = 'en-us'
 title = 'Matthew Montesano'
 theme = 'hugo-bootstrap'
@@ -6,7 +6,7 @@ publishDir = 'docs'
 paginate = 20
 
 [params]
-    devpath = "/work-portfolio"
+    devpath = "/my-work"
 
 [[menu.main]]
     name = "LinkedIn"
