@@ -1,6 +1,6 @@
 baseURL = 'http://mmontesanonyc.github.io/my-work'
 languageCode = 'en-us'
-title = 'Matthew Montesano'
+title = 'Matthew Montesano: Portfolio'
 theme = 'hugo-bootstrap'
 publishDir = 'docs'
 paginate = 20
